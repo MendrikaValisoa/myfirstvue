@@ -1,9 +1,21 @@
 <template>
+<table>
   <div class="hello">
     <div :key="index" v-for="(makeup, index) in makeup ">
-       <h1> {{makeup.name}} </h1>     
+      <tr>
+        <td>
+       <h1> {{makeup.name}} </h1>
+       </td>
+       <td>   
+       <img :src="makeup.image_link" alt="" style="width:20%">
+       </td>
+       <td>  
+       <h1> {{makeup.category}} </h1>
+       </td>
+       </tr>
     </div>
-  </div>  
+  </div>
+  </table>  
 </template>
 
 <script>
