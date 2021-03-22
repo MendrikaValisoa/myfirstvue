@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <div :key="index" v-for="(makeup, index) in makeup ">
-       <h1> {{makeup.name}} </h1>      
+       <h1> {{makeup.name}} </h1>     
     </div>
   </div>  
 </template>
