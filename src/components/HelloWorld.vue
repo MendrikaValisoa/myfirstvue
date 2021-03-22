@@ -6,11 +6,11 @@
         <td>
        <h1> {{makeup.name}} </h1>
        </td>
-       <td>   
-       <img :src="makeup.image_link" alt="" style="width:20%">
-       </td>
        <td>  
        <h1> {{makeup.category}} </h1>
+       </td>
+       <td>   
+       <img :src="makeup.image_link" alt="" style="width:20%">
        </td>
        </tr>
     </div>
